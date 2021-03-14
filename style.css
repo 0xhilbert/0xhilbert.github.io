@@ -1,0 +1,55 @@
+body {
+    background:  no-repeat center center fixed;
+    padding-top: 54px;
+    position: relative;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    background-color: white;
+}
+
+.timeline-entry{
+    position:relative;
+    margin-top:15px;
+    margin-bottom:0px;
+    padding: 10px 0px 10px 0px;
+    left:0px;
+    background: white;
+    display:inline-block;
+    border-radius:10px;
+    border:2px solid rgb(0, 0, 0);
+    width:100%;
+}
+
+.timeline-date{
+    position:relative;
+    left:-8px;
+    width:100%;
+    top:-2px
+}
+
+.timeline{
+    margin-top:20px;
+    position:relative;
+    margin-bottom: 50px;
+}
+
+.timeline:before{
+    position:absolute;
+    content:'';
+    width:6px;
+    height:calc(100% - 15px);
+    background: rgb(138,145,150);
+    left:6px;
+    top:25px;
+    border-radius:100px;
+}
+
+.link-target{
+    margin-top: -54px;
+    position: absolute;
+}
