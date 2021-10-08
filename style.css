@@ -32,6 +32,11 @@ html {
     top:-2px
 }
 
+.timeline-sep{
+    border: 10px solid green;
+    border-radius: 5px;
+}
+
 .timeline{
     margin-top:20px;
     position:relative;
