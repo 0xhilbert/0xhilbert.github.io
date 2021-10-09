@@ -1,6 +1,6 @@
 body {
     background:  no-repeat center center fixed;
-    padding-top: 54px;
+    padding-top: 60px;
     position: relative;
 }
 
@@ -27,20 +27,36 @@ html {
 
 .timeline-date{
     position:relative;
-    left:-8px;
+    left:5px;
     width:100%;
-    top:-2px
+    top:25px;
+    margin-bottom:15px;
 }
 
-.timeline-sep{
-    border: 10px solid green;
+@media (min-width: 300px) {
+hr.timeline-sep{
+    top: -200px;
+}
+}
+@media (min-width: 576px) {
+hr.timeline-sep{
+    position:relative;
+    top: -6px;
     border-radius: 5px;
+}
+}
+
+hr{
+    margin-top:20px;
+    margin-bottom:20px;
+    border-radius: 1px;
+    border-top: 1px solid rgb(0, 120, 206);
 }
 
 .timeline{
-    margin-top:20px;
+    margin-top:-20px;
     position:relative;
-    margin-bottom: 50px;
+    margin-bottom: 15px;
 }
 
 .timeline:before{
@@ -48,13 +64,13 @@ html {
     content:'';
     width:6px;
     height:calc(100% - 15px);
-    background: rgb(138,145,150);
-    left:6px;
+    background: rgb(0, 78, 134);
+    left:40px;
     top:25px;
     border-radius:100px;
 }
 
 .link-target{
-    margin-top: -54px;
+    margin-top: -60px;
     position: absolute;
 }
