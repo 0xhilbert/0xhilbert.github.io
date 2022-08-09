@@ -40,7 +40,7 @@
   </a>
   <div class="dropdown-menu" id="papers">
     <a class="dropdown-item" href="#papers2022">
-      2022: 4
+      2022: 6
     </a>
     <a class="dropdown-item" href="#papers2021">
       2021: 2
@@ -65,6 +65,9 @@
     CVEs
   </a>
   <div class="dropdown-menu" id="cves">
+    <a class="dropdown-item" href="#cves2022">
+      2022: 2
+    </a>
     <a class="dropdown-item" href="#cves2020">
       2020: 2
     </a>
@@ -178,6 +181,60 @@
           <div class="col-md-11">
             <i class="fa fa-file">
             </i>
+            <a class="title" href="https://aepicleak.com/aepicleak.pdf">
+              ÆPIC Leak: Architecturally Leaking Uninitialized Data from the Microarchitecture
+            </a>
+            <br>
+            <small >
+              Pietro Borrello, <b>Andreas Kogler</b>, Martin Schwarzl, Moritz Lipp, Daniel Gruss, Michael Schwarz
+              <br>
+              USENIX Security 2022
+              <br>
+              <small >
+                <i class="fa fa-bug">
+                </i>
+                 CVE: CVE-2022-21233
+              </small>
+              <br>
+              <span class="sbtn"><a href="https://aepicleak.com/"><i class="fa fa-info"></i> Info</a></span> <span class="sbtn"><a href="https://github.com/IAIK/aepic"><i class="fa fa-github"></i> GitHub</a></span> 
+            </small>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="timeline-entry">
+          <div class="col-md-1">
+          </div>
+          <div class="col-md-11">
+            <i class="fa fa-file">
+            </i>
+            <a class="title" href="https://stefangast.eu/papers/squip.pdf">
+              SQUIP: Exploiting the Scheduler Queue Contention Side Channel
+            </a>
+            <br>
+            <small >
+              Stefan Gast, Jonas Juffinger, Martin Schwarzl, Gururaj Saileshwar, <b>Andreas Kogler</b>, Simone Franza, Markus Köstl, Daniel Gruss
+              <br>
+              IEEE Symposium on Security and Privacy 2023
+              <br>
+              <small >
+                <i class="fa fa-bug">
+                </i>
+                 CVE: CVE-2021-46778
+              </small>
+              <br>
+              
+            </small>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="timeline-entry">
+          <div class="col-md-1">
+          </div>
+          <div class="col-md-11">
+            <i class="fa fa-file">
+            </i>
             <a class="title" href="https://andreaskogler.com/papers/halfdouble.pdf">
               Half-Double: Hammering From the Next Row Over
             </a>
@@ -191,7 +248,7 @@
             </small>
           </div>
         </div>
-      </div>      
+      </div>
       <div class="row">
         <div class="timeline-entry">
           <div class="col-md-1">
@@ -434,6 +491,60 @@
     <div class="timeline">
       <div class="row">
         <div class="timeline-date">
+          <span id="cves2022" class="anchor">
+          </span>
+          <div class="col-xs-1">
+            <b class="hi">
+              2022
+            </b>
+          </div>
+          <div class="col-xs-11">
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="timeline-entry">
+          <div class="col-md-1">
+          </div>
+          <div class="col-md-11">
+            <i class="fa fa-bug">
+            </i>
+            <a class="title" href="https://nvd.nist.gov/vuln/detail/CVE-2022-21233">
+              CVE-2022-21233
+            </a>
+            <br>
+            <small >
+              Pietro Borrello, <b>Andreas Kogler</b>, Martin Schwarzl, Moritz Lipp, Daniel Gruss, Michael Schwarz
+              <br>
+              
+            </small>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="timeline-entry">
+          <div class="col-md-1">
+          </div>
+          <div class="col-md-11">
+            <i class="fa fa-bug">
+            </i>
+            <a class="title" href="https://nvd.nist.gov/vuln/detail/CVE-2021-46778">
+              CVE-2021-46778
+            </a>
+            <br>
+            <small >
+              Stefan Gast, Jonas Juffinger, Martin Schwarzl, Gururaj Saileshwar, <b>Andreas Kogler</b>, Simone Franza, Markus Köstl, Daniel Gruss
+              <br>
+              Execution unit scheduler contention may lead to a side channel vulnerability found on AMD CPU microarchitectures codenamed “Zen 1”, “Zen 2” and “Zen 3” that use simultaneous multithreading (SMT). By measuring the contention level on scheduler queues an attacker may potentially leak sensitive information.
+              , August 9, 2022
+              <br>
+              
+            </small>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="timeline-date">
           <span id="cves2020" class="anchor">
           </span>
           <div class="col-xs-1">
@@ -497,7 +608,7 @@
 
 
             <footer>
-                <p>&copy; 2022 Andreas Kogler. <small>Last updated: 2022-05-26 17:36</small></p>
+                <p>&copy; 2022 Andreas Kogler. <small>Last updated: 2022-08-09 21:08</small></p>
             </footer>
 
         </div>
