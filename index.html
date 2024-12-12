@@ -38,26 +38,29 @@
   <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">
     Papers
   </a>
-  <div class="dropdown-menu" id="papers">
+  <div class="dropdown-menu" id="papers_ddm">
+    <a class="dropdown-item" href="#papers2024">
+      2025: 2
+    </a>
+    <a class="dropdown-item" href="#papers2024">
+      2024: 3
+    </a>
     <a class="dropdown-item" href="#papers2023">
-      2023: 3
+      2023: 5
     </a>
     <a class="dropdown-item" href="#papers2022">
-      2022: 8
+      2022: 5
     </a>
     <a class="dropdown-item" href="#papers2021">
-      2021: 2
-    </a>
-    <a class="dropdown-item" href="#papers2020">
-      2020: 1
+      2021: 3
     </a>
   </div>
 </li>
 <li class="nav-item dropdown" id="#">
   <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">
-    Presentations
+    Talks
   </a>
-  <div class="dropdown-menu" id="talks">
+  <div class="dropdown-menu" id="talks_ddm">
     <a class="dropdown-item" href="#talks2022">
       2022: 3
     </a>
@@ -70,7 +73,7 @@
   <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">
     CVEs
   </a>
-  <div class="dropdown-menu" id="cves">
+  <div class="dropdown-menu" id="cves_ddm">
     <a class="dropdown-item" href="#cves2023">
       2023: 2
     </a>
@@ -83,6 +86,11 @@
   </div>
 </li>
 
+
+
+
+
+
                 </ul>
             </div>
         </nav>
@@ -91,98 +99,139 @@
                 
             <!-- About Me -->
             <div class="link-target" id="about_me"></div>
-
-            <div class="row">
-                <div class="col-md-1"></div>
-                <div class="col-md-10">
-                <h3><i class="fa fa-user"></i>
-                    About Me:
-                </h3>
-                </div>
-                <div class="col-md-1"></div>
-            </div>
+            <br>
         
+
             <!-- Example row of columns -->
-            <div class="row">
-                <div class="col-md-1"></div>
-                <div class="col-md-2">
+            <div class="row align-items-center ">
+                <div class="col-0  col-xs-1 col-md-1 col-lg-1"></div>
+                <div class="col-12 col-xs-5 col-md-4 col-lg-2">
                     
+
+
                     <!-- Image -->
-                    <div class="row">
-                        <div class="col-xs-12">
+                    <div class="row ">
+                     
+                        <div class="col-3 col-md-0 "></div>
+                        <div class="col-6 col-md-12 ">
+                          
                         <img src="images/profile.jpg" alt="" class="img-fluid rounded-circle">
                         </div>
+                        <div class="col-3 col-md-0 "></div>
+                 
                     </div>
-            
-                    <!-- Icons -->
-                    <div class="row">
-                        
-                        <span class="fa-stack fa-lg">
-                        <a href="https://github.com/0xhilbert">
-                            <i class="fa fa-github fa-stack-1x "></i>
-                        </a>
-                        </span>
-                        
-                        <span class="fa-stack fa-lg">
-                        <a href="https://twitter.com/0xhilbert">
-                            <i class="fa fa-twitter fa-stack-1x "></i>
-                        </a>
-                        </span>
-                        
-                        <span class="fa-stack fa-lg">
-                        <a href="https://scholar.google.at/citations?user=gd0o3ngAAAAJ&hl=en">
-                            <i class="fa fa-google fa-stack-1x"></i>
-                        </a>
-                        </span>
-                        
-                        <span class="fa-stack fa-lg">
-                        <a href="mailto:andreas.kogler@iaik.tugraz.at">
-                            <i class="fa fa-envelope fa-stack-1x"></i>
-                        </a>
-                        </span>
-                    
-                    </div>
+
+
+
                 </div>
                 
                 <!-- Description -->
-                <div class="col-md-7">
-                    <p>I am a PhD candidate at the <a href="https://iaik.tugraz.at">Institute of Applied Information Processing and Communications</a> at Graz University of Technology. I focus on microarchitectural attacks and side channels.</p>
+                <div class="col-12 col-xs-5 col-md-6 col-lg-8">
+
+
+                    <div class="row">
+                        <h3><i class="fa fa-user"></i>
+                          About Me:
+                        </h3>
+                    </div>
+
+                    <div class="row">
+                        <p style="text-align:justify;">Hi, I'm Andreas, a security researcher from Austria. I defended my PhD titled <a href="https://repository.tugraz.at/publications/wj4v9-q8e63">Colliding Worlds: Exploiting Physical Properties from Software</a> in the field of system security at the <a href="https://tugraz.at">Graz University of Technology</a> in August 2024. My primary focus is on combining traditional hardware attacks with microarchitectural techniques to mount software-only attacks. Over the years, I have contributed to research on the Half-Double Rowhammer variant, the AEPIC-Leak, CacheWarp, Collide+Power, and many more vulnerabilities listed below. Currently, I work as a security researcher at Apple. </p>
+                     </div>
+                  
+                    
+            
+                    <!-- <div class="d-flex align-items-center justify-content-center"> -->
+                    <!-- Icons -->
+                    <div class="row">
+
+                      <div class="col-1 "></div>
+
+                      <div class="col-2 "><a href="https://github.com/0xhilbert"><i class="fa fa-github "></i></a></div>
+                      <div class="col-2 "><a href="https://twitter.com/0xhilbert"><i class="fa fa-twitter "></i></a></div>
+                      <div class="col-2 "><a href="https://scholar.google.com/citations?user=2ycwyGIAAAAJ"><i class="fa fa-google"></i></a></div>
+                      <div class="col-2 "><a href="https://linkedin.com/in/andreas-kogler-5a4745332"><i class="fa fa-linkedin "></i></a></div>
+                      <div class="col-2 "><a href="https://andreaskogler.com/cv.pdf"><i class="fa fa-solid fa-address-card"></i></a></div>
+
+                      <div class="col-1 "></div>
+                      
+                    </div>
+
+
+
                 </div>
-                <div class="col-md-2"></div>
+                <div class="col-0 col-xs-1 col-md-1 col-lg-1"></div>
             </div>
-    
-            <div id="papers" class="row">
-  <div class="col-md-1">
-  </div>
+            
+            <div class="row">
+
+              <div class="col-md-1"></div>
+              <div class="col-md-10">
+                <br>
+            <ul class="nav nav-tabs nav-justified" id="myTab" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link active" id="papers-tab" data-toggle="tab" href="#papers" role="tab" aria-controls="papers" aria-selected="true"><h4><i class="fa fa-file">
+                </i> Papers</h4></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="talks-tab" data-toggle="tab" href="#talks" role="tab" aria-controls="talks" aria-selected="false"><h4><i class="fa fa-television">
+                </i> Talks</h4></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="cves-tab" data-toggle="tab" href="#cves" role="tab" aria-controls="cves" aria-selected="false"><h4><i class="fa fa-bug">
+                </i> CVEs</h4></a>
+              </li>
+            </ul>
+          </div>
+            <div class="col-md-1"></div>
+
+          </div>
+
+
+
+          <div class="tab-content" id="myTabContent">
+
+
+
+            <div class="tab-pane fade show active" id="papers" role="tabpanel" aria-labelledby="papers-tab">
+            <!--<div id="papers" class="row">
+
+  <div class="col-md-1"></div>
   <div class="col-md-10">
+    
+     
     <hr>
-    <h3 >
+     <h3 >
       <i class="fa fa-file">
       </i>
-      Papers
+      Publications
     </h3>
   </div>
   <div class="col-md-1">
   </div>
-</div>
+</div>-->
 <div class="row">
   <div class="col-md-1">
   </div>
   <div class="col-md-10">
     <div class="timeline">
+
+
       <div class="row">
         <div class="timeline-date">
-          <span id="papers2023" class="anchor">
+          <span id="papers2024" class="anchor">
           </span>
           <div class="col-xs-1">
             <b class="hi">
-              2023
+              2025
             </b>
           </div>
           <div class="col-xs-11">
           </div>
         </div>
       </div>
+
+
       <div class="row">
         <div class="timeline-entry">
           <div class="col-md-1">
@@ -190,7 +239,108 @@
           <div class="col-md-11">
             <i class="fa fa-file">
             </i>
-            <a class="title" href="https://cachewarpattack.com/paper.pdf">
+            <a class="title" href="https://andreaskogler.com/papers/androidsensors.pdf">
+              Power-Related Side-Channel Attacks using the Android Sensor Framework
+            </a>
+            <br>
+            <small >
+              Mathias Oberhuber, Martin Unterguggenberger, Lukas Maar, <b>Andreas Kogler</b>, Stefan Mangard
+              <br>
+              NDSS 2025
+              <br>
+            </small>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="row">
+        <div class="timeline-entry">
+          <div class="col-md-1">
+          </div>
+          <div class="col-md-11">
+            <i class="fa fa-file">
+            </i>
+            <a class="title" href="https://andreaskogler.com/papers/demote.pdf">
+              A Systematic Evaluation of Novel and Existing Cache Side Channels
+            </a>
+            <br>
+            <small >
+              Fabian Rauscher, Carina Fiedler, <b>Andreas Kogler</b>, Daniel Gruss
+              <br>
+              NDSS 2025
+              <br>
+            </small>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="timeline-date">
+          <span id="papers2024" class="anchor">
+          </span>
+          <div class="col-xs-1">
+            <b class="hi">
+              2024
+            </b>
+          </div>
+          <div class="col-xs-11">
+          </div>
+        </div>
+      </div>
+
+
+      <div class="row">
+        <div class="timeline-entry">
+          <div class="col-md-1">
+          </div>
+          <div class="col-md-11">
+            <i class="fa fa-file">
+            </i>
+            <a class="title" href="https://andreaskogler.com/papers/idleleak.pdf">
+              IdleLeak: Exploiting Idle State Side Effects for Information Leakage
+            </a>
+            <br>
+            <small >
+              Fabian Rauscher, <b>Andreas Kogler</b>, Jonas Juffinger, Daniel Gruss
+              <br>
+              NDSS 2024
+              <br>
+            </small>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="timeline-entry">
+          <div class="col-md-1">
+          </div>
+          <div class="col-md-11">
+            <i class="fa fa-file">
+            </i>
+            <a class="title" href="https://andreaskogler.com/papers/javasquip.pdf">
+              Remote Scheduler Contention Attacks
+            </a>
+            <br>
+            <small >
+              Stefan Gast, Jonas Juffinger, Lukas Maar, Christoph Royer, <b>Andreas Kogler</b>, Daniel Gruss
+              <br>
+              Financial Crypto 2024
+              <br>
+            </small>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="row">
+        <div class="timeline-entry">
+          <div class="col-md-1">
+          </div>
+          <div class="col-md-11">
+            <i class="fa fa-file">
+            </i>
+            <a class="title" href="https://andreaskogler.com/papers/cachewarp.pdf">
               CacheWarp: Software-based Fault Injection using Selective State Reset
             </a>
             <br>
@@ -210,6 +360,22 @@
           </div>
         </div>
       </div>
+
+      <div class="row">
+        <div class="timeline-date">
+          <span id="papers2023" class="anchor">
+          </span>
+          <div class="col-xs-1">
+            <b class="hi">
+              2023
+            </b>
+          </div>
+          <div class="col-xs-11">
+          </div>
+        </div>
+      </div>
+
+
       <div class="row">
         <div class="timeline-entry">
           <div class="col-md-1">
@@ -217,7 +383,7 @@
           <div class="col-md-11">
             <i class="fa fa-file">
             </i>
-            <a class="title" href="https://collidepower.com/paper/Collide+Power.pdf">
+            <a class="title" href="https://andreaskogler.com/papers/collidepower.pdf">
               Collide+Power: Leaking Inaccessible Data with Software-based Power Side Channels
             </a>
             <br>
@@ -237,6 +403,7 @@
           </div>
         </div>
       </div>
+
       <div class="row">
         <div class="timeline-entry">
           <div class="col-md-1">
@@ -244,7 +411,7 @@
           <div class="col-md-11">
             <i class="fa fa-file">
             </i>
-            <a class="title" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10202621">
+            <a class="title" href="https://andreaskogler.com/papers/ptguard.pdf">
               PT-Guard: Integrity-Protected Page Tables to Defend Against Breakthrough Rowhammer Attacks
             </a>
             <br>
@@ -258,19 +425,8 @@
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="timeline-date">
-          <span id="papers2022" class="anchor">
-          </span>
-          <div class="col-xs-1">
-            <b class="hi">
-              2022
-            </b>
-          </div>
-          <div class="col-xs-11">
-          </div>
-        </div>
-      </div>
+
+
       <div class="row">
         <div class="timeline-entry">
           <div class="col-md-1">
@@ -292,17 +448,27 @@
           </div>
         </div>
       </div>
+
+
       <div class="row">
         <div class="timeline-entry">
           <div class="col-md-1">
           </div>
-          <div class="col-md-11">
+          <div class="col-md-12">
             <i class="fa fa-file">
             </i>
-            <a class="title" href="https://www.jonasjuffinger.com/papers/csirowhammer.pdf">
-              CSI: Rowhammer–Cryptographic Security and Integrity against Rowhammer
+            <a class="title" href="https://andreaskogler.com/papers/csirowhammer.pdf">
+              CSI: Rowhammer-Cryptographic Security and Integrity against Rowhammer
             </a>
             <br>
+
+            <!--<div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/TJJxhcKyM-w?si=leM62UJLnvtHcaaS" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>-->
+
+
+
+      
             <small >
               Jonas Juffinger, Lukas Lamster, <b>Andreas Kogler</b>, Moritz Lipp, Maria Eichlseder, Daniel Gruss
               <br>
@@ -313,41 +479,15 @@
           </div>
         </div>
       </div>
+
+
       <div class="row">
         <div class="timeline-entry">
-          <div class="col-md-1">
-          </div>
+          <div class="col-md-1"></div>
           <div class="col-md-11">
             <i class="fa fa-file">
             </i>
-            <a class="title" href="https://aepicleak.com/aepicleak.pdf">
-              ÆPIC Leak: Architecturally Leaking Uninitialized Data from the Microarchitecture
-            </a>
-            <br>
-            <small >
-              Pietro Borrello, <b>Andreas Kogler</b>, Martin Schwarzl, Moritz Lipp, Daniel Gruss, Michael Schwarz
-              <br>
-              USENIX Security 2022
-              <br>
-              <small >
-                <i class="fa fa-bug">
-                </i>
-                 CVE: CVE-2022-21233
-              </small>
-              <br>
-              <span class="sbtn"><a href="https://aepicleak.com/"><i class="fa fa-info"></i> Info</a></span> <span class="sbtn"><a href="https://github.com/IAIK/aepic"><i class="fa fa-github"></i> GitHub</a></span> <span class="sbtn"><a href="https://andreaskogler.com/slides/aepic-leak.pdf"><i class="fa fa-slideshare"></i> Slides</a></span> 
-            </small>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="timeline-entry">
-          <div class="col-md-1">
-          </div>
-          <div class="col-md-11">
-            <i class="fa fa-file">
-            </i>
-            <a class="title" href="https://stefangast.eu/papers/squip.pdf">
+            <a class="title" href="https://andreaskogler.com/papers/squip.pdf">
               SQUIP: Exploiting the Scheduler Queue Contention Side Channel
             </a>
             <br>
@@ -367,6 +507,51 @@
           </div>
         </div>
       </div>
+      
+
+      <div class="row">
+        <div class="timeline-date">
+          <span id="papers2022" class="anchor">
+          </span>
+          <div class="col-xs-1">
+            <b class="hi">
+              2022
+            </b>
+          </div>
+          <div class="col-xs-11">
+          </div>
+        </div>
+      </div>
+      
+
+      <div class="row">
+        <div class="timeline-entry">
+          <div class="col-md-1">
+          </div>
+          <div class="col-md-11">
+            <i class="fa fa-file">
+            </i>
+            <a class="title" href="https://andreaskogler.com/papers/aepicleak.pdf">
+              ÆPIC Leak: Architecturally Leaking Uninitialized Data from the Microarchitecture
+            </a>
+            <br>
+            <small >
+              Pietro Borrello, <b>Andreas Kogler</b>, Martin Schwarzl, Moritz Lipp, Daniel Gruss, Michael Schwarz
+              <br>
+              USENIX Security 2022
+              <br>
+              <small >
+                <i class="fa fa-bug">
+                </i>
+                 CVE: CVE-2022-21233
+              </small>
+              <br>
+              <span class="sbtn"><a href="https://aepicleak.com/"><i class="fa fa-info"></i> Info</a></span> <span class="sbtn"><a href="https://github.com/IAIK/aepic"><i class="fa fa-github"></i> GitHub</a></span> <span class="sbtn"><a href="https://andreaskogler.com/slides/aepic-leak.pdf"><i class="fa fa-slideshare"></i> Slides</a></span> 
+            </small>
+          </div>
+        </div>
+      </div>
+
       <div class="row">
         <div class="timeline-entry">
           <div class="col-md-1">
@@ -388,6 +573,7 @@
           </div>
         </div>
       </div>
+
       <div class="row">
         <div class="timeline-entry">
           <div class="col-md-1">
@@ -409,6 +595,7 @@
           </div>
         </div>
       </div>
+
       <div class="row">
         <div class="timeline-entry">
           <div class="col-md-1">
@@ -430,6 +617,7 @@
           </div>
         </div>
       </div>
+
       <div class="row">
         <div class="timeline-entry">
           <div class="col-md-1">
@@ -437,7 +625,7 @@
           <div class="col-md-11">
             <i class="fa fa-file">
             </i>
-            <a class="title" href="https://bibbase.org/network/publication/giner-kogler-canella-schwarz-gruss-repurposingsegmentationasapracticallvinullmitigationinsgx-2022">
+            <a class="title" href="https://andreaskogler.com/papers/lvinullify.pdf">
               Repurposing Segmentation as a Practical LVI-NULL Mitigation in SGX
             </a>
             <br>
@@ -451,6 +639,7 @@
           </div>
         </div>
       </div>
+
       <div class="row">
         <div class="timeline-date">
           <span id="papers2021" class="anchor">
@@ -464,6 +653,7 @@
           </div>
         </div>
       </div>
+
       <div class="row">
         <div class="timeline-entry">
           <div class="col-md-1">
@@ -471,7 +661,7 @@
           <div class="col-md-11">
             <i class="fa fa-file">
             </i>
-            <a class="title" href="https://arxiv.org/pdf/2111.10876.pdf">
+            <a class="title" href="https://andreaskogler.com/papers/domainpagetableisolation.pdf">
               Domain Page-Table Isolation
             </a>
             <br>
@@ -483,6 +673,7 @@
           </div>
         </div>
       </div>
+
       <div class="row">
         <div class="timeline-entry">
           <div class="col-md-1">
@@ -490,31 +681,20 @@
           <div class="col-md-11">
             <i class="fa fa-file">
             </i>
-            <a class="title" href="https://arxiv.org/pdf/2110.04751.pdf">
-              Dynamic Process Isolation
+            <a class="title" href="https://andreaskogler.com/papers/dynamicprocessisolation.pdf">
+              Robust and Scalable Process Isolation Against Spectre in the Cloud
             </a>
             <br>
             <small >
               Martin Schwarzl, Pietro Borrello, <b>Andreas Kogler</b>, Kenton Varda, Thomas Schuster, Daniel Gruss, Michael Schwarz
               <br>
-              
+              ESORICS 2021
+              <br>
             </small>
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="timeline-date">
-          <span id="papers2020" class="anchor">
-          </span>
-          <div class="col-xs-1">
-            <b class="hi">
-              2020
-            </b>
-          </div>
-          <div class="col-xs-11">
-          </div>
-        </div>
-      </div>
+
       <div class="row">
         <div class="timeline-entry">
           <div class="col-md-1">
@@ -522,7 +702,7 @@
           <div class="col-md-11">
             <i class="fa fa-file">
             </i>
-            <a class="title" href="https://platypusattack.com/platypus.pdf">
+            <a class="title" href="https://andreaskogler.com/papers/platypus.pdf">
               PLATYPUS: Software-based Power Side-Channel Attacks on x86
             </a>
             <br>
@@ -543,17 +723,25 @@
           </div>
         </div>
       </div>
+
     </div>
   </div>
   <div class="col-md-1">
   </div>
 </div>
-<div id="talks" class="row">
+
+
+</div>
+
+
+<div class="tab-pane fade" id="talks" role="tabpanel" aria-labelledby="talks-tab">
+
+<!--<div id="talks" class="row">
   <div class="col-md-1">
   </div>
   <div class="col-md-10">
-    <hr>
-    <h3 >
+    
+    <hr><h3 >
       <i class="fa fa-television">
       </i>
       Presentations
@@ -561,12 +749,92 @@
   </div>
   <div class="col-md-1">
   </div>
-</div>
+</div>-->
+
 <div class="row">
   <div class="col-md-1">
   </div>
   <div class="col-md-10">
     <div class="timeline">
+
+
+      
+      <div class="row">
+        <div class="timeline-date">
+          <span id="talks2022" class="anchor">
+          </span>
+          <div class="col-xs-1">
+            <b class="hi">
+              2024
+            </b>
+          </div>
+          <div class="col-xs-11">
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="timeline-entry">
+          <div class="col-md-1">
+          </div>
+          <div class="col-md-11">
+            <i class="fa fa-television">
+            </i>
+            <a class="title" href="">
+              Looking Back at 10 Years of Rowhammer Exploits
+            </a>
+            <br>
+            <small >
+              Jonas Juffinger, <b>Andreas Kogler</b>
+              <br>
+              Talk @ Hardwear.io Netherlands 2024, Amsterdam, October 25, 2024
+              <br>
+              <span class="sbtn"><a href="https://hardwear.io/netherlands-2024/speakers/jonas-and-andreas.php"><i class="fa fa-info"></i> Info</a></span> 
+            </small>
+          </div>
+        </div>
+      </div>
+
+      
+      <div class="row">
+        <div class="timeline-date">
+          <span id="talks2022" class="anchor">
+          </span>
+          <div class="col-xs-1">
+            <b class="hi">
+              2023
+            </b>
+          </div>
+          <div class="col-xs-11">
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="timeline-entry">
+          <div class="col-md-1">
+          </div>
+          <div class="col-md-11">
+            <i class="fa fa-television">
+            </i>
+            <a class="title" href="https://www.youtube.com/watch?v=c2V9VfEDwEg">
+              Collide+Power: The Evolution of Software-based Power Side-Channels Attacks
+            </a>
+            <br>
+            <small >
+              <b>Andreas Kogler</b>
+              <br>
+              Talk @ 
+              Blackhat Europe 2023
+              , London
+              , December 6, 2022
+              <br>
+              <span class="sbtn"><a href="https://www.blackhat.com/eu-23/briefings/schedule/#collidepower-the-evolution-of-software-based-power-side-channels-attacks-35630"><i class="fa fa-info"></i> Info</a></span> 
+            </small>
+          </div>
+        </div>
+      </div>
+
       <div class="row">
         <div class="timeline-date">
           <span id="talks2022" class="anchor">
@@ -580,6 +848,7 @@
           </div>
         </div>
       </div>
+
       <div class="row">
         <div class="timeline-entry">
           <div class="col-md-1">
@@ -599,11 +868,12 @@
               , London
               , December 7, 2022
               <br>
-              
+              <span class="sbtn"><a href="https://www.blackhat.com/eu-22/briefings/schedule/#csirowhammer-closing-the-case-of-half-double-and-beyond-29281"><i class="fa fa-info"></i> Info</a></span> 
             </small>
           </div>
         </div>
       </div>
+
       <div class="row">
         <div class="timeline-entry">
           <div class="col-md-1">
@@ -623,7 +893,7 @@
               , Las Vegas
               , August 10, 2022
               <br>
-              
+              <span class="sbtn"><a href="https://www.blackhat.com/us-22/briefings/schedule/#aepic-leak-architecturally-leaking-uninitialized-data-from-the-microarchitecture-26559"><i class="fa fa-info"></i> Info</a></span> 
             </small>
           </div>
         </div>
@@ -647,11 +917,12 @@
               , Singapore
               , May 13, 2022
               <br>
-              
+              <span class="sbtn"><a href="https://www.blackhat.com/asia-22/briefings/schedule/#dynamic-process-isolation-26106"><i class="fa fa-info"></i> Info</a></span> 
             </small>
           </div>
         </div>
       </div>
+
       <div class="row">
         <div class="timeline-date">
           <span id="talks2020" class="anchor">
@@ -665,6 +936,7 @@
           </div>
         </div>
       </div>
+
       <div class="row">
         <div class="timeline-entry">
           <div class="col-md-1">
@@ -684,7 +956,7 @@
               , Online
               , December 27, 2020
               <br>
-              
+              <span class="sbtn"><a href="https://media.ccc.de/v/rc3-11404-attacking_cpus_with_power_side_channels_from_software_warum_leaked_hier_strom_en"><i class="fa fa-info"></i> Info</a></span>
             </small>
           </div>
         </div>
@@ -694,12 +966,18 @@
   <div class="col-md-1">
   </div>
 </div>
-<div id="cves" class="row">
+
+</div>
+
+
+<div class="tab-pane fade" id="cves" role="tabpanel" aria-labelledby="cves-tab">
+
+ <!--<div id="cves" class="row">
   <div class="col-md-1">
   </div>
   <div class="col-md-10">
-    <hr>
-    <h3 >
+    
+   <hr><h3 >
       <i class="fa fa-bug">
       </i>
       CVEs
@@ -707,7 +985,8 @@
   </div>
   <div class="col-md-1">
   </div>
-</div>
+</div>-->
+
 <div class="row">
   <div class="col-md-1">
   </div>
@@ -881,9 +1160,12 @@
   </div>
 </div>
 
+</div>
+</div>
+
 
             <footer>
-                <p>&copy; 2023 Andreas Kogler. <small>Last updated: 2023-11-14 21:07</small></p>
+                <p>&copy; 2023 Andreas Kogler. <small>Last updated: 2024-12-12</small></p>
             </footer>
 
         </div>
